@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #a48ff8;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+}
+
+h2 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+h2 a:hover {
+    color: #a48ff8;
+}
+
+/* NavBar */
+.navBar {
+    /* background-color: #ddadb7; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 5;
+}
+
+.nav-items {
+    margin-left: 50px;
+
+}
+
+.nav-link:hover {
+    border: 50px;
+    border-color: #560a1a;
+    color: #dc143c;
+   
+}
+
+.home-section{
+    padding-top: 10%;
+}
+
+.home-left{
+    /* width: 50%; */
+    /* background-color: blue; */
+}
+.home-left img{
+    height: 80%;
+    transform: translate(25%,15%);
+}
+
+.home-right{
+    
+}
+
+
+.my-btn {
+    background-color: #ffffff;
+    border-color: #a48ff8;
+    border-radius: 5px;
+    color: #a48ff8;
+    width: 100px;
+}
+
+.my-btn:hover {
+    background-color: #a48ff8;
+    color: #ffffff;
+    font-weight: 500;
+}
